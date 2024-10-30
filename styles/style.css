@@ -2,6 +2,10 @@
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
 
+.shadow-decor {
+  text-shadow: 2px 2px 0px var(--accent-color);
+}
+
 .footer-decor {
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
@@ -190,7 +194,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--hover-border-color, #ff007040);
+  border-color: var(--hover-border-color);
 }
 
 .header__theme-menu-button:focus {
